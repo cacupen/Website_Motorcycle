@@ -1,0 +1,91 @@
+body{
+    margin : 0px;
+    padding : 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#header {
+    height : 100px;
+    background-color: rgba(53,19,18,255);
+    color: white;
+    padding: 2% 3%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+#home{
+    margin-right: 30px;
+    margin-left: 100px;
+}
+#reserve{
+    margin-right: 30px;
+}
+#products{
+    margin-right: 30px;
+}
+
+#logo img{
+    height: 100px;
+}
+
+.productText{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formContainerProduct{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    height: 150px;
+  }
+  
+  .personalText{
+    margin-top: 2%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .formContainerPersonal{
+    display: grid;
+    justify-content: center;
+    height: 150px;
+    margin-bottom: 2%;
+    margin-top: 1%;
+    
+  }
+  
+  .div-btn{
+    margin-top: 30px;
+  }
+  
+  input, select,textarea{
+    width: 200px;
+    resize: none;
+  }
+
+#footer{
+    height: 100px;
+    background-color: rgba(53,19,18,255);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

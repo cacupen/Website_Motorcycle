@@ -1,0 +1,155 @@
+body{
+    margin : 0px;
+    padding : 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#header {
+    height : 100px;
+    background-color: rgba(53,19,18,255);
+    color: white;
+    padding: 2% 3%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+#home{
+    margin-right: 30px;
+    margin-left: 100px;
+}
+#reserve{
+    margin-right: 30px;
+}
+#products{
+    margin-right: 30px;
+}
+
+#logo img{
+    height: 100px;
+}
+
+#content{
+    background-color: white;
+    height: 500px;
+}
+
+#footer{
+    height: 100px;
+    background-color: rgba(53,19,18,255);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+* {box-sizing:border-box}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.mySlides{
+    display: none;
+}
+
+
+.mySlides img{
+  height: 330px;
+}
+
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+
+.next {
+  
+  border-radius: 3px 0 0 3px;
+  margin-left: 120%;
+  height: 100px;
+}
+
+.prev {
+    border-radius: 3px 0 0 3px;
+    margin-left: -120%;
+}
+
+
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 50%;
+  border-color: rgba(53,19,18,255);
+  border-style: solid;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: rgba(53,19,18,255);
+}
+
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+#contenttext{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+
+#deskripsi{
+    margin-left :20;
+    text-align: center;
+
+}

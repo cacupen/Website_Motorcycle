@@ -1,0 +1,144 @@
+body{
+    margin : 0px;
+    padding : 0px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#header {
+    height : 100px;
+    background-color: rgba(53,19,18,255);
+    color: white;
+    padding: 2% 3%;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+#home{
+    margin-right: 30px;
+    margin-left: 100px;
+}
+#reserve{
+    margin-right: 30px;
+}
+#products{
+    margin-right: 30px;
+}
+
+#logo img{
+    height: 100px;
+}
+
+#content{
+    background-color: white;
+    height: 500px;
+}
+
+#footer{
+    height: 100px;
+    background-color: rgba(53,19,18,255);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 13%;
+}
+
+
+
+#vixian1 img{
+    height: 75px;
+}
+#vixian2 img{
+    height: 75px;
+}
+
+#gambarvixian{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#textvixian{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 15px;
+    
+}
+
+#titlemotorvixian{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+#textmotorvixian1{
+    
+    padding: 1% 1%;
+    margin-left : 27%;
+}
+
+#textmotorvixian2{
+    padding: 1% 10%;
+    margin-left: 7%;
+
+}
+
+
+
+
+#kawasako1 img{
+    height: 75px;
+}
+
+#kawasako2 img{
+    height: 75px;
+}
+
+#gambarkawasako{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#textkawasako{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+#titlemotorkawasako{
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+#textmotorkawasako1{
+    
+    padding: 1% 1%;
+    margin-left : 27%;
+}
+
+#textmotorkawasako2{
+    padding: 1% 10%;
+    margin-left: 7%;
+
+}

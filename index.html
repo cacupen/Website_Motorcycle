@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./homepagestyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="header">
+        <div id="logo">
+            <img src="./logosepedapng.png" alt="">
+        </div>
+
+        <div id="navbar">
+            <a href="index.html">
+                <div id="home">
+                    Home
+                </div>
+            </a>
+            <a href="reserve.html">
+                <div id="reserve">
+                    Reserve
+                </div>
+            </a>
+            <a href="products.html">
+                <div id="products">
+                    Products
+                </div>
+            </a>
+            <a href="gallery.html">
+                <div id="gallery">
+                    Gallery
+                </div>
+            </a>
+
+        </div>
+    </div>
+    
+    <div id="content">
+        <div id="imageslider">
+            <script src="./homepagescript.js"></script>
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <img src="./exhibitionimgs1.jpg" alt="">
+                  </div>
+                
+                  <div class="mySlides fade">
+                    <img src="./exhibitionimgs2.jpg" alt="">
+                  </div>
+                
+                  <div class="mySlides fade">
+                    <img src="./exhibitionimgs3.jpg" alt="">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+              <br>
+              <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+              </div>
+        </div>
+
+        <div id="contenttext">
+            <div id="deskripsi">
+                <p>YBIKE is bike reserve company</p>
+                <p>YBIKE has been around since 30 December 2016 and based in Jakarta</p>
+                <p>led by Carvin Joestar and Provide 2 brand of motorcycle, Vixian and Kawasako</p>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        Copyright © 2021 YBIKE
+
+    </div>
+    
+</body>
+</html>
